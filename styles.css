@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', Arial, sans-serif;
+    background-image: url('Landing\ page\ 4.jpg'); /* Ganti dengan path gambar Anda */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    scroll-behavior: smooth;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-image: url('Landing\ page\ 2.jpg'); /* Ganti dengan path gambar Anda */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.title {
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #0000ee;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    padding: 20px;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 5px;
+}
+
+.content-area {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 2px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+}
+
+.left-column {
+    width: 70%;
+}
+
+.right-column{
+    width: 30%;
+    border-radius: 2%;
+    padding-top: 30px;
+}
+.nav-content {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.list-with-image {
+    display: flex;
+    align-items: flex-end;
+}
+
+.list-with-image ul {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.list-with-image img {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .nav-content img {
+        width: 100%;
+    }
+}
+
+.profile {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 2px;
+}
+
+.profile img {
+    width: 80%;
+    height: auto;
+}
+
+p {
+    text-align: justify;
+}
+
+p.deskripsi{
+    text-align: center;
+}
+
+footer {
+    width: 95%;
+    background-color: #f8f8f8;
+    padding: 10px;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.form-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    border: none;
+    background-color: #6200ea;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: auto;
+}
